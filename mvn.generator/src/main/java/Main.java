@@ -17,7 +17,7 @@ public class Main {
 		a = NumToLet.ScanInput();
 		//obj= new GenEn(); 	print("En : ");  aa =obj.Generate( a ); print("\n");
 		//	obj= new GenFr(); 	print("FR : ");	aa =obj.Generate( a ); print("\n");
-		//obj= new GenAr(); 	print("Ar : ");	aa = obj.Generate( a ); print("\n");
+		obj= new GenAr(); 	print("Ar : ");	aa = obj.Generate( a ); print("\n");
 		obj= new GenInd(); 	print("Ind : ");	aa = obj.Generate( a ); print("\n");
 		aa = aa.trim() ;
 		obj.ToggleColor();
