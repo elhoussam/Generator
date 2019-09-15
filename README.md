@@ -25,7 +25,7 @@ mvn install
 <b> <i>Info</i> </b> each folder contain target folder which has all the generated file (classes, jars, src folders) by using 
 the following CMD : 
 ```git
-mvn install
+mvn clean package
 ```
  
 
